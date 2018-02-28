@@ -66,6 +66,7 @@ int main() {
     words[1].b=2147483646;
     words[2].b=2147483646;
     getline(file, b);
+    cout<<flush;//widows errors
     int dist;
     while (b.compare("")) {
         //b.length()>=a.length() &&
